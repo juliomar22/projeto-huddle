@@ -1,0 +1,52 @@
+@media(max-width: 375px) {
+
+    html {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        padding: 10px 30px 50px 30px;
+    }
+
+    .header {
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .header .logo {
+        width: 140px;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descricao {
+        text-align: center;
+        margin: 0;
+    }
+
+    .descricao h2 {
+        margin-top: 60px;
+        font-size: 24px;
+    }
+
+    .descricao .btn {
+        padding: 10px 80px;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .social {
+        margin-top: 50px;
+
+    }
+
+
+}
