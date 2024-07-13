@@ -63,6 +63,7 @@ body {
 .descricao .btn:hover {
     color: #fff;
     background-color: hsl(300, 69%, 71%);
+    box-shadow:  0 0 1em rgb(68, 68, 63);
 }
 
 .footer {
