@@ -1,3 +1,9 @@
+html {
+    max-width: 1440px;
+    height: auto;
+    display: flex;
+}
+
 body {
     background: url('../images/bg-desktop.svg') hsl(257, 40%, 49%) center center no-repeat;
     background-size: cover;
@@ -5,11 +11,12 @@ body {
     font-family: "Poppins", sans-serif;
     background-size: cover;
     max-width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
     margin-bottom: 40px;
-    height: 100px;
 }
 
 .header .logo {
